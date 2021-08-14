@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<title>中医基础理论</title>
+			<style type="text/css">
+			h1 {
+				text-align:center;
+			}
+			p {
+				background-color:#999999;
+				color:white;
+			}
+			</style>
+		</head>
+		<body>
+			<h1>绪论</h1>
+			<p>														&nbsp;&nbsp;中医学发源于中国，有着数千年的悠久历史，是中华民族传统文化的重要组成部分，是中华民族在长期的生产、生活和医疗实践中，认识生命、维护健康、防治疾病宝贵经验的积累和总结，是历代传承并发展创新的原创性医学理论体系，为中华民族的繁衍昌盛做出了巨大的贡献。中医学传播到世界各地，对全人类的健康保健和疾病防治,产生了重要的影响和促进作用。
+			<!--如何自动换行？-->
+			</p>
+			<textarea name="sc1" cols="100" rows="5" wrap="soft" placeholder="你可以在读完上一段后，于此处写下你的思考与体会。" required></textarea>
+			
+		</body>
+	</html>
