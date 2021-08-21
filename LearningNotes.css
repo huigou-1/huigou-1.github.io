@@ -6,3 +6,6 @@ body {
 p,h1,h2,h3,h4,h5,h6 {
     text-indent:2em;
 }
+P {
+    line-height:2em;
+}
