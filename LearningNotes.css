@@ -1,11 +1,17 @@
 body {
-    background:white;
-    color:black;
+    user-select: none;
+    background: white;
+    color: black;
 }
 
-p,h1,h2,h3,h4,h5,h6 {
-    text-indent:2em;
+p, h2, h3, h4, h5, h6 {
+    text-indent: 2em;
 }
-P {
-    line-height:2em;
+
+h1 {
+    text-align: center;
+}
+
+p {
+    line-height: 2em;
 }
