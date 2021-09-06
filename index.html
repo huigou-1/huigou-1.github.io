@@ -10,6 +10,11 @@
             user-select: none;
         }
 
+        html,
+        body {
+            scroll-behavior: smooth;
+        }
+
         body {
 
             background-image: url("https://visualhunt.com/vh2/img/vh-bg-1920x1080-min-1.jpg");
@@ -77,6 +82,19 @@
             text-indent: 2em;
             line-height: 1.5em;
         }
+
+        .a_Baidu {
+            text-decoration: none;
+        }
+
+        .input_Baidu_text {
+            width: 50%;
+            margin: 10% 0 0 10%;
+        }
+
+        .input_Baidu_botton {
+            margin: 10% 10% 0 0;
+        }
     </style>
 </head>
 
@@ -141,6 +159,26 @@
             </article>
         </div>
     </a>
+
+    <div class="card">
+        <a class="a_Baidu" href="https://www.baidu.com/" target="_blank">
+
+            <header>
+                <h1>
+                    <img src="https://www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg" />
+                    百度
+                </h1>
+            </header>
+        </a>
+        <article>
+            <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+                <input class="input_Baidu_text" id="input_baidu" type="text" onfocus="checkHttps" name="word"
+                    size="30" />
+                <input class="input_Baidu_botton" id="botton_baidu" type="submit" value="搜索" />
+            </form>
+        </article>
+    </div>
+
     <a href="">
 
         <div class="card">
@@ -155,7 +193,6 @@
         </div>
     </a>
     <a href="">
-
         <div class="card">
             <header>
                 <h1></h1>
